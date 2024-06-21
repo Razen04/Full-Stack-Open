@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 8px 18px;
+    border-radius: 8px;
+    background: white;
+    width: fit-content;
+    margin-top: 4px;
+    color: black;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease linear;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
