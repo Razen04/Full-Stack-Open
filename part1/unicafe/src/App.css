@@ -1,0 +1,20 @@
+.btn {
+    display: flex;
+}
+
+button {
+    padding: 8px 18px;
+    border-radius: 8px;
+    background: #000;
+    color: white;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease linear;
+}
+
+button:hover {
+    background: white;
+    color: #000;
+}
