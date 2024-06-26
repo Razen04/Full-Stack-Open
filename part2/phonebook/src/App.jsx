@@ -49,7 +49,7 @@ const App = () => {
         personService
           .update(person.id, changedPerson)
           .then(response => setPersons(persons.map((eachPerson) => eachPerson.id === person.id ? response.data : eachPerson)))
-          .catch(error => {
+          .catch(() => {
             setNegative(true)
             setMessage(`Information of ${newName} has already been removed from the server.`)
           })
