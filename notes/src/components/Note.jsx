@@ -1,6 +1,10 @@
-const Note = ({ note }) => {
+const Note = ({ note, handleImportance }) => {
+    const label = note.important ? `Mark as unimportant` : `Mark as important`
     return (
-        <li>{note.content}</li>
+        <li>
+            {note.content}
+            <button onClick={handleImportance}>{label}</button>
+        </li>
     )
 }
 
